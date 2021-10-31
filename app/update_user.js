@@ -23,4 +23,4 @@ const updateUser = async(id,dataUpdate) => {
     // console.log(getOtherUser)
 }
 
-updateUser(2,{"id":2,"username":"testupdate","password":"1223456"});
+module.exports = updateUser;
